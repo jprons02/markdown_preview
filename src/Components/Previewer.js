@@ -2,7 +2,6 @@ import React from 'react';
 import marked from 'marked';
 import DOMPurify from 'dompurify';
 
-//Preview component
 const Previewer = (props) => {
   
     const getMarkdownText = () => {
@@ -10,7 +9,6 @@ const Previewer = (props) => {
     }
     
     return (
-      //code for marked.js to work
       <div id="preview" dangerouslySetInnerHTML={{__html: getMarkdownText()}} />
     )
   }

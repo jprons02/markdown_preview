@@ -1,6 +1,5 @@
 import React from 'react';
 
-//Editor component
 const Editor = (props) => {
     return (
       <textarea 
